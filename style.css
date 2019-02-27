@@ -1,0 +1,57 @@
+body {
+
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 63px 723px 341px 564px 43px;
+    text-align: center;
+}
+
+.box {
+    background-color: beige;
+    color: black;
+    border-radius: 5px;
+    border: 2px dodgerblue solid;
+  }
+
+.header {
+    background-color: #323232;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header a {
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 6.32px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 20px 0 20px;
+
+}
+
+.header a:visited {
+    color: #185f51;
+}
+
+.header a:hover {
+    color: #2eb398;
+}
+
+.header a.absolute {
+    position: absolute;
+    width: 70px;
+    height: 80px;
+}
+
+.carousel {
+    z-index: 3;
+}
+
+
+
