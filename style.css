@@ -1,10 +1,9 @@
 body {
-
 }
 
 .grid {
     display: grid;
-    grid-template-rows: 63px 723px 341px 564px 43px;
+    grid-template-rows: 63px 721px 341px 564px 43px;
     text-align: center;
 }
 
@@ -32,26 +31,62 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     padding: 0 20px 0 20px;
-
-}
-
-.header a:visited {
-    color: #185f51;
+    z-index: 8;
 }
 
 .header a:hover {
     color: #2eb398;
 }
 
-.header a.absolute {
-    position: absolute;
-    width: 70px;
-    height: 80px;
+.logo {
+    padding-top: 26px;
 }
 
 .carousel {
     z-index: 3;
+    min-width: 1000px;
 }
 
+.hexagon {
+    width: 180px;
+    height: 210px;
+    transform: rotate(60deg);
+    overflow: hidden;
+    display: inline-block;
+    margin: 10px 10px;
+}
 
+.hexagon-1 {
+    width: 100%x;
+    height: 100%;
+    transform: rotate(60deg);
+    overflow: hidden;
+}
 
+.hexagon-2 {
+    width: 100%x;
+    height: 100%;
+    transform: rotate(60deg);
+}
+
+.hexagon-2 img {
+    transform: rotate(180deg);
+}
+
+.row-width {
+    min-width: 1200px;
+}
+
+.row-1 .hexagon {
+    position: relative;
+    top: 62px;
+}
+
+.row-2 .hexagon {
+    position: relative;
+}
+
+.row-3 .hexagon {
+    position: relative;
+    top: -62px;
+}
