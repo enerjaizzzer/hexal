@@ -186,6 +186,12 @@ input[type="submit"] {
     background-color: #2eb398;
 }
 
+input[type='submit']:hover,
+.close:hover {
+    color: #2eb398;
+    background-color: #d7fcf5;
+}
+
 .send-right {
     text-align: right;
     clear: both; 
@@ -215,8 +221,8 @@ textarea {
     text-align: justify;
 }
 
- .getin .width .text-form p,
- .getin .width .text-form a {
+.getin .width .text-form p,
+.getin .width .text-form a {
     padding-left: 10px;
     color: #bebebe;
 }
@@ -266,7 +272,7 @@ textarea {
     text-align: center;
     color: #bebebe;
     background-color: #454545;
-    border: none;
+
 }
 
 #window h1 {
@@ -291,7 +297,7 @@ textarea {
 }
 
 #window .window-on-window-1 a:hover {
-    color: #2eb398;     
+    color: #2eb398;
 }
 
 #the-darkness:target {
@@ -312,13 +318,7 @@ textarea {
     text-transform: uppercase;
     color: #d7fcf5;
     background-color: #2eb398;
-    border: none;
     cursor: pointer;
-}
-
-.close:hover {
-    color:  #2eb398;
-    background: #d7fcf5;
 }
 
 .bottom {
