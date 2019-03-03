@@ -1,10 +1,10 @@
 body {
-    color: #d7fcf5;
-    font-family: Lato;
     font-size: 12px;
-    font-weight: 400;
     line-height: 21.56px;
+    font-weight: 400;
+    font-family: Lato, "Arial", sans-serif;
     text-align: justify;
+    color: #d7fcf5;
 }
 
 a {
@@ -18,21 +18,21 @@ a {
 }
 
 .header {
-    background-color: #323232;
     z-index: 2;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #323232;
 }
 
 .header a h1{
-    color: #ffffff;
-    font-size: 10px;
-    font-weight: 700;
-    line-height: 6.32px;
-    text-transform: uppercase;
-    padding: 0 20px 0 20px;
     z-index: 3;
+    padding: 0 20px 0 20px;
+    font-size: 10px;
+    line-height: 6.32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
 }
 
 .header a:hover h1{
@@ -49,12 +49,12 @@ a {
 }
 
 .hexagon {
+    display: inline-block;
     width: 180px;
     height: 210px;
+    margin: 10px 10px;
     transform: rotate(60deg);
     overflow: hidden;
-    display: inline-block;
-    margin: 10px 10px;
 }
 
 .hexagon-1 {
@@ -93,11 +93,11 @@ a {
 }
 
 .info {
-    background-color: #2eb398;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: left;
+    background-color: #2eb398;
 }
 
 .info p {
@@ -105,19 +105,19 @@ a {
 }
 
 .info h1 {
-    color: #d7fcf5;
-    font-family: "Maven Pro Regular";
+    padding-left: 10px;
     font-size: 30px;
     line-height: 4.56px;
-    padding-left: 10px;
+    font-family: "Maven Pro Regular", "Arial", sans-serif;
+    color: #d7fcf5;
 }
 
 .info h2 {
-    color: #20816d;
-    font-family: "Maven Pro Regular";
+    padding-left: 10px;
     font-size: 18px;
     line-height: 21.56px;
-    padding-left: 10px;
+    font-family: "Maven Pro Regular", "Arial", sans-serif;
+    color: #20816d;
 }
 
 .line {
@@ -133,20 +133,19 @@ a {
 }
 
 .getin h1 {
-    color: #e0e0e0;
-    font-family: "Maven Pro Regular";
     font-size: 30px;
-    font-weight: 400;
     line-height: 4.56px;
+    font-weight: 400;
+    font-family: "Maven Pro Regular", "Arial", sans-serif;
     text-align: left;
+    color: #e0e0e0;
 }
 
 .getin h2 {
-    color: #bebebe;
-    font-family: "Maven Pro Regular";
     font-size: 18px;
-
+    font-family: "Maven Pro Regular", "Arial", sans-serif;
     text-align: left;
+    color: #bebebe;
 }
 
 .getin .width {
@@ -160,64 +159,66 @@ a {
 }
 
 input {
+    font-family: Lato, "Arial", sans-serif;
     border: none;
     outline: none;
-    font-family: Lato;
 }
 
-input[type="text"], input[type="email"] {
-    background: #454545;
-    height: 38px;
+input[type="text"],
+input[type="email"] {
     width: 550px;
-    color: #bebebe;
-    font-size: 12px;
+    height: 38px;
     padding: 0 15px;
- }
+    font-size: 12px;
+    color: #bebebe;
+    background: #454545;
+}
 
- form {
-     text-align: left;
- }
+form {
+    text-align: left;
+}
 
- input[type="submit"] {
+input[type="submit"] {
     width: 90px;
     height: 37px;
-    background-color: #2eb398;
     text-transform: uppercase;
-    color: #d7fcf5
- }
+    color: #d7fcf5;
+    background-color: #2eb398;
+}
 
- .send-right {
-    clear: both; 
+.send-right {
     text-align: right;
- }
+    clear: both; 
+}
 
- textarea {
+textarea {
+    width: 550px;
+    height: 150px;
+    padding: 13px 15px;
+    font-size: 12px;
+    font-family: Lato, "Arial", sans-serif;
+    color: #bebebe;
     border: none;
     background: #454545;
     outline: none;
-    height: 150px;
-    width: 550px;
-    color: #bebebe;
-    font-size: 12px;
-    font-family: Lato;
-    padding: 13px 15px;
- }
+}
 
- .form {
-    width: 580px;
+.form {
     display: inline-block;
- }
+    width: 580px;
+}
 
- .text-form {
-     width: 20%;
-     display: inline-block;
-     vertical-align: top;
-     text-align: justify;
- }
+.text-form {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    text-align: justify;
+}
 
- .getin .width .text-form p, .getin .width .text-form a{
-    color: #bebebe;
+ .getin .width .text-form p,
+ .getin .width .text-form a {
     padding-left: 10px;
+    color: #bebebe;
 }
 
 .getin .width .text-form a {
@@ -241,53 +242,52 @@ input[type="text"], input[type="email"] {
 }
 
 #the-darkness {
-    background: rgba(102, 102, 102, 0.8);
-    width: 100%;
-    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    display: none;
     z-index: 11;
-  }
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(102, 102, 102, 0.8);
+}
 
 #window {
-    width: 800px;
-    height: 400px;
-    text-align: center;
-    padding: 15px;
-    border: none;
-    background-color: #454545;
-    color: #bebebe;
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    margin: auto;
     z-index: 12;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    color: #bebebe;
+    background-color: #454545;
+    border: none;
 }
 
 #window h1 {
-    text-align: center;
     padding: 15px;
+    text-align: center;
 }
 
 #window p {
-    text-align: center;
     padding: 15px;
+    text-align: center;
 }
 
 #window a {
-    color: #bebebe;
     display: block;
+    color: #bebebe;
 }
 
 #window .window-on-window-1 a {
     font-size: 20px;
-    font-weight: 400;
     line-height: 40.56px;
-
+    font-weight: 400;
 }
 
 #window .window-on-window-1 a:hover {
@@ -299,26 +299,26 @@ input[type="text"], input[type="email"] {
 }
 
 .close {
-    display: inline-block;
-    border: none;
-    color: #d7fcf5;
-    text-decoration: none;
-    background-color: #2eb398;
-    font-size: 14pt;
-    cursor: pointer;
     z-index: 13;
+    display: inline-block;
     width: 90px;
     height: 37px;
-    text-transform: uppercase;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 15px;
     margin-top: 50px;
-  }
+    padding-top: 15px;
+    font-size: 14pt;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #d7fcf5;
+    background-color: #2eb398;
+    border: none;
+    cursor: pointer;
+}
 
 .close:hover {
-    background: #d7fcf5;
     color:  #2eb398;
+    background: #d7fcf5;
 }
 
 .bottom {
@@ -326,12 +326,12 @@ input[type="text"], input[type="email"] {
 }
 
 .bottom p {
-    color: #454545;
-    font-family: "Maven Pro Regular";
+    display: flex;
+    margin: 18px 0 0 0;
     font-size: 12px;
     line-height: 6.32px;
-    display: flex;
+    font-family: "Maven Pro Regular", "Arial", sans-serif;
+    color: #454545;
     align-items: center;
     justify-content: center;
-    margin: 18px 0 0 0;
 }
