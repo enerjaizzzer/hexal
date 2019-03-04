@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('assets/fonts/9622.ttf');
+    font-family: 'Maven Pro Regular';
+    src: url('assets/fonts/Maven Pro Regular.otf');
+}
+
 body {
     font-size: 12px;
     line-height: 21.56px;
