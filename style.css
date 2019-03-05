@@ -53,6 +53,13 @@ header a:hover h1{
     padding-top: 33px;
 }
 
+.dot {
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background-color: #484c5f;
+}
+
 .carousel {
     z-index: 1;
 }
