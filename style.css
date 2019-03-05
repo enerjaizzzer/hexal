@@ -110,6 +110,8 @@ main {
 
 main p {
     padding-left: 10px;
+    text-align: justify;
+    width: 600px;
 }
 
 main h1 {
@@ -132,8 +134,15 @@ main h2 {
     padding: 0 10px 0 20px;
 }
 
-.info a {
+#about a {
     float: right;
+    opacity: 0.5;
+}
+
+#about a:hover {
+    opacity: 1;
+    transition: opacity 1s ease;
+
 }
 
 .getin {
@@ -170,12 +179,12 @@ input {
     font-family: Lato, "Arial", sans-serif;
     border: none;
     outline: none;
+    width: 550px;
+    height: 38px;
 }
 
 input[type="text"],
 input[type="email"] {
-    width: 550px;
-    height: 38px;
     padding: 0 15px;
     font-size: 12px;
     color: #bebebe;
@@ -188,7 +197,6 @@ form {
 
 input[type="submit"] {
     width: 90px;
-    height: 37px;
     text-transform: uppercase;
     color: #d7fcf5;
     background-color: #2eb398;
