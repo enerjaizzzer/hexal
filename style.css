@@ -144,12 +144,67 @@ main h2 {
 
 #about a {
     float: right;
-    opacity: 0.5;
+    display: block;
+    width: 24px;
+    height: 24px;
 }
 
 #about a:hover {
-    opacity: 1;
-    transition: opacity 1s ease;
+    transition: background 0.2s linear;
+}
+
+#about a.dribbble {
+    background: url('assets/img/Inet/Dribbble2.png');
+
+}
+
+#about a.dribbble:hover {
+    background: url('assets/img/Inet/Dribbble.png');
+}
+
+#about a.linkedin {
+    background: url('assets/img/Inet/Linkedin2.png');
+
+}
+
+#about a.linkedin:hover {
+    background: url('assets/img/Inet/Linkedin.png');
+}
+
+#about a.pinterest {
+    background: url('assets/img/Inet/Pinterest2.png');
+
+}
+
+#about a.pinterest:hover {
+    background: url('assets/img/Inet/Pinterest.png');
+}
+
+#about a.google {
+    background: url('assets/img/Inet/Google2.png');
+
+}
+
+#about a.google:hover {
+    background: url('assets/img/Inet/Google.png');
+}
+
+#about a.twitter {
+    background: url('assets/img/Inet/Twitter2.png');
+
+}
+
+#about a.twitter:hover {
+    background: url('assets/img/Inet/Twitter.png');
+}
+
+#about a.facebook {
+    background: url('assets/img/Inet/Facebook2.png');
+
+}
+
+#about a.facebook:hover {
+    background: url('assets/img/Inet/Facebook.png');
 }
 
 .getin {
